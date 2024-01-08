@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #FAEED1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main_container {
+    padding: 120px;
+}
+
+/* ---------section 1------- */
+.section_1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #DED0B6;
+
+
+
+}
+
+.section_1 #box1,
+.section_1 #box2,
+.section_1 #box3 {
+    padding: 40px;
+}
+
+
+.section_1 #box1 {
+    display: flex;
+    flex-grow: 2;
+}
+
+.section_1 #box1 div {
+    padding: 0px 30px;
+}
+
+.section_1 #box1 img {
+    width: 200px;
+}
+
+.section_1 #box1 p {
+    display: block;
+}
+
+.section_1 #box2 li {
+    list-style: none;
+    padding: 4px;
+}
+
+.section_1 #box2 li h5 {
+    padding: 0 10px;
+}
+
+.section_1 #box3 {
+    width: 100%;
+}
+
+
+.botttom-section {
+    display: flex;
+}
+
+/* ---------section 2------- */
+.section_2 {
+    width: 70%;
+    padding: 40px 0 40px 40px;
+    background-color: #DED0B6;
+}
+
+.section_2 h5,
+.section_2 h5,
+.section_2 p {
+    padding: 15px 0;
+
+
+}
+
+.section_2 #emp1 div,
+.section_2 #emp2 div,
+.section_2 #edu1 div,
+.section_2 #edu2 div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_1 #box2 ul li {
+    display: flex;
+}
+
+/* ---------section 3------- */
+.section_3 {
+    width: 30%;
+    padding: 40px;
+    background-color: #DED0B6;
+    color: #4d5c5e;
+
+}
+
+
+
+.section_3 #skill_1 li {
+    list-style: none;
+    padding: 5px 0px;
+
+}
+
+.section_3 h4 {
+    margin-bottom: 20px;
+   
+}
+
+.section_3 #skill_2 h4{
+    margin-top: 40px;
+}
+.section_3 #skill_3 h4 {
+    margin-top: 10px;
+}
+
+h1,
+h4 {
+    color: #162325;
+}
+
+h5,
+h6 {
+    color: #4d5c5e;
+}
+
+p {
+    color: #342f2b
+}
+
+h4 {
+    background-color: #5e58522c;
+    padding: 10px 0px;
+}
+
+
+.pSkill_container {
+    background-color: rgba(192, 192, 192, 0.432);
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.pSkill {
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size:16px;
+    border-radius: 15px;
+}
+
+.html {
+    width: 80%;
+    background-color: #527853;
+}
+
+.css {
+    width: 80%;
+    background-color: #B99470;
+}
+
+.javaScript {
+    width: 60%;
+    background-color: #F7B787;
+}
+
+.react {
+    width: 60%;
+    background-color: #EE7214;
+}
+
+.mySql {
+    width: 70%;
+    background-color: #C6A969;
+}
+
+.section_3 #skill_2 li {
+    list-style: square;
+    margin: 0px 20px;
+    padding: 5px 0px;
+}
+
+.section_3 #skill_3 li {
+    list-style: none;
+    padding: 5px 0px;
+
+}
+.section_3 li{
+    font-size: 16px;
+}
+
+
+
+.dot,
+.empty_dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.empty_dot {
+    border: 1px #bbb solid;
+}
+
+.dot {
+    background-color: #B99470;
+}
+
+
+
